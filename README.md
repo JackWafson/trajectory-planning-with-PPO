@@ -31,7 +31,8 @@ $$\mathbb{R}=-\alpha d_t^2 -\beta\big(v_t \max(0,\gamma-d_t^2)\big) + \mathbf{R}
 
 其中， $\mathbf{R}$ 代表到达目标的奖励， $\mathbf{J}_1$ 用以衡量速度方向和航向角的偏差， $\mathbf{J}_2$ 用以衡量速度的平滑度
 
+``pathplanning_env.py``为类gym仿真类，``PPO.py``为PPO网络文件，``main.py``为主函数
 
-![图片]((https://github.com/JackWafson/trajectory-planning-with-PPO/blob/main/figure/figure1.svg))
+![图片](https://github.com/JackWafson/trajectory-planning-with-PPO/blob/main/figure/figure1.svg)
 
 上述建模是一个简单的目标追踪，没有考虑避障、追逃等更加复杂的问题。对这些问题的分析都需要智能体对外界的感知。假设智能体可以通过激光雷达获得外界物体以智能体为原点的相对位置和绝对速度（由雷达信号获得这些信息的具体处理过程略）。
