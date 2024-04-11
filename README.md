@@ -17,6 +17,6 @@
 
 智能体的奖励函数$r_t = \mathbb{R}(s_t,a_t)$为：$$\mathbb{R}=\underbrace{-\alpha d_t^2}_{衡量与目标的距离} \underbrace{-\beta\big(v_t \max(0,\gamma-d_t^2)\big)}_{将要到达目标时减速} + \underbrace{\mathbf{R}}_{到达目标的奖励} - \underbrace{\mathbf{J}_1}_{速度方向和航向角的差值} - \underbrace{\mathbf{J}_2}_{相邻时刻的速度差值}$$
 
-![图片](.\figure\figure1.svg)
+![图片]([.\figure\figure1.svg](https://github.com/JackWafson/trajectory-planning-with-PPO/blob/main/figure/figure1.svg))
 
 上述建模是一个简单的目标追踪，没有考虑避障、追逃等更加复杂的问题。对这些问题的分析都需要智能体对外界的感知。假设智能体可以通过激光雷达获得外界物体以智能体为原点的相对位置和绝对速度（由雷达信号获得这些信息的具体处理过程略）。
