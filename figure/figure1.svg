@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 531.37 405.98">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: red;
+      }
+
+      .cls-1, .cls-4, .cls-5, .cls-6, .cls-7 {
+        font-style: italic;
+      }
+
+      .cls-1, .cls-4, .cls-6 {
+        font-family: TimesNewRomanPS-ItalicMT, 'Times New Roman';
+      }
+
+      .cls-1, .cls-6, .cls-3 {
+        font-size: 23.23px;
+      }
+
+      .cls-8, .cls-9, .cls-5, .cls-6, .cls-7 {
+        fill: #000;
+      }
+
+      .cls-8, .cls-10, .cls-11, .cls-2, .cls-12 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8, .cls-10, .cls-11, .cls-12 {
+        stroke: #000;
+      }
+
+      .cls-9 {
+        stroke-width: 0px;
+      }
+
+      .cls-13 {
+        font-family: TimesNewRomanPSMT, 'Times New Roman';
+      }
+
+      .cls-10, .cls-11, .cls-12 {
+        fill: none;
+      }
+
+      .cls-11 {
+        stroke-dasharray: 0 0 4.4 4.4;
+      }
+
+      .cls-2 {
+        stroke: red;
+      }
+
+      .cls-5, .cls-7 {
+        font-family: TimesNewRomanPS-BoldItalicMT, 'Times New Roman';
+        font-size: 27.87px;
+        font-weight: 700;
+      }
+
+      .cls-7 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-12 {
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="_图层_1-2" data-name="图层 1">
+    <path class="cls-10" d="M116.5,331.34l-48.06-2.91-.02-.03-.05.03h-.03s0,.01,0,.01l-58.92,30.89c-8.15,4.27-11.29,14.34-7.02,22.48l7.73,14.75c4.27,8.15,14.34,11.29,22.48,7.02l59-30.93-.06-.12,24.94-41.19ZM10,395.03l-.05-.09-.19.1-6.5-12.39,12.98-6.8.05.09.19-.1,6.5,12.39-12.98,6.8ZM39.53,388.95l-14.23-27.14,47.49-24.9,14.23,27.14-47.49,24.9Z"/>
+    <line class="cls-10" x1="154.89" y1="312.43" x2="55.99" y2="361.53"/>
+    <polygon class="cls-8" points="156.2 311.82 151.59 311.41 153.55 315.61 156.2 311.82"/>
+    <g>
+      <path class="cls-10" d="M98.99,340.35c-.04-.27.38-.29.63-.19.53.22,1.05.46,1.55.73"/>
+      <path class="cls-11" d="M104.78,343.4c1.76,1.56,3.22,3.45,4.26,5.56,1.24,2.51,1.86,5.3,1.85,8.07"/>
+      <path class="cls-10" d="M110.74,359.22c-.11.83-.27,1.65-.5,2.45"/>
+    </g>
+    <text class="cls-6" transform="translate(116.65 355.97)"><tspan x="0" y="0">θ</tspan></text>
+    <line class="cls-12" x1="55.91" y1="28.76" x2="55.91" y2="362.08"/>
+    <line class="cls-12" x1="54.75" y1="362.46" x2="498.77" y2="362.46"/>
+    <polygon class="cls-9" points="55.91 17.15 49.2 28.76 62.61 28.76 55.91 17.15"/>
+    <polygon class="cls-9" points="510.05 362.19 498.44 355.48 498.44 368.89 510.05 362.19"/>
+    <text class="cls-5" transform="translate(510.08 377.76)"><tspan x="0" y="0">X</tspan></text>
+    <text class="cls-7" transform="translate(33.21 23.16)"><tspan x="0" y="0">Y</tspan></text>
+    <polygon class="cls-2" points="435.7 143.58 437.96 150.08 444.84 150.22 439.35 154.38 441.34 160.96 435.7 157.03 430.05 160.96 432.04 154.38 426.56 150.22 433.44 150.08 435.7 143.58"/>
+    <text class="cls-1" transform="translate(411.1 189.29)"><tspan x="0" y="0">Goal</tspan></text>
+    <text class="cls-3" transform="translate(407.91 213)"><tspan class="cls-13" x="0" y="0">(</tspan><tspan class="cls-4" x="7.73" y="0">x </tspan><tspan class="cls-13" x="23.85" y="0">, </tspan><tspan class="cls-4" x="35.46" y="0">y</tspan><tspan class="cls-13" x="45.77" y="0">)</tspan></text>
+  </g>
+</svg>
